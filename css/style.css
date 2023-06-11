@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    height: 100%;
+    max-width: 100%;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.164);
+}
+
+
+h1 {
+    color: rgb(163, 0, 0);
+    font-size: 3em;
+    text-align: center;
+    font-family: Didot;
+}
+
+h2 {
+    color: rgb(121, 0, 0);
+    font-size: 1.8em;
+    font-family: Lucida Bright;
+    font-style: oblique;
+}
+
+h3 {
+    color: rgb(68, 0, 0);
+    font-size: 1.5em;
+    font-style: oblique;
+    font-family: Lucida Bright;
+}
+
+html {
+    font-size: 100%;
+}
+
+nav {
+    margin: auto;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.356);
+    display: block;
+    justify-content: space-around;
+    font-size: 1.5em;
+    font-family: Didot;
+
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+p {
+    color: rgb(8, 5, 5);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Goudy Old Style;
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #c50000;
+}
+
+form {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Didot;
+    font-size: 1.2em;
+}
+
+label {
+    margin: 10px;
+}
+
+#civility_form {
+    margin-bottom: 10px;
+}
+
+#name_form {
+    margin-bottom: 10px;
+}
+
+#lastname_form {
+    margin-bottom: 10px;
+}
+
+#mail_form {
+    margin-bottom: 10px;
+}
+
+#phonenumber_form {
+    margin-bottom: 10px;
+}
+
+#object_form {
+    margin-bottom: 10px;
+}
+
+#message_form {
+    margin-bottom: 10px;
+}
+
+#message_form textarea {
+    margin-top: 10px;
+}
+
+#submit_form {
+    margin-bottom: 10px;
+}
+
+form input {
+    justify-content: center;
+}

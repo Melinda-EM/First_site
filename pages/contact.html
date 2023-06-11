@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meli's Photos</title>
+</head>
+
+<body>
+    <nav class='header'>
+        <ul>
+            <li><a class='home' href='../index.html'>HOME</a></li>
+            <li><a class='pagelink' href='portfolio.html'>PORTFOLIO</a></li>
+            <li><a class='pagelink' href='about.html'>A PROPOS</a></li>
+            <li><a class='pagelink' href='#top'>CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="Meli's photos">
+        <h1>Meli's Photography</h1>
+        <p>Bienvenue dans l'univers de la photographie, prenez place et immergez vous dans l'expérience et la nature.</p>
+        <p><strong>À mon avis, vous ne pouvez pas dire que vous avez vu quelque chose à fond si vous n’en avez pas pris une photographie.</strong> – <em>Emile Zola</em></p>
+    </div>
+
+    
+        <h2>CONTACT</h2>
+        <p>Vous trouverez ci-dessous un formulaire afin de prendre contact avec moi, n'hésitez pas à le remplir en cas de question, je vous répondrai dans les meilleurs délais</p>
+        <form>
+            <fieldset>
+                <legend>Formulaire de contact</legend>
+                <div id="civility_form">
+                    <label>Civilité :</label>
+                    <input type="radio" value="madame" name="gender">
+                    <span>Mme</span>
+                    <input type="radio" value="monsieur" name="gender">
+                    <span>Mr</span>
+                </div>
+                <div id="name_form">
+                    <label>Prénom :</label>
+                    <input type="text" required>
+                </div>
+                <div id="lastname_form">
+                    <label>Nom :</label>
+                    <input type="text" required>
+                </div>
+                <div id="mail_form">
+                    <label>Email :</label>
+                    <input type="text" required>
+                </div>
+                <div id="phonenumber_form">
+                    <label>Portable :</label>
+                    <input type="text" minlength="10">
+                </div>
+                <div id="object_form">
+                    <label>Objet :</label>
+                    <select name="object">
+                        <option value="selectionner" disabled selected>Selectionner votre réponse</option>
+                        <option value="renseignement">Renseignement</option>
+                        <option value="rendez-vous">Rendez-vous</option>
+                        <option value="reclamation">Réclamation</option>
+                        <option value="autres">Autre</option>
+                    </select>
+                </div>
+                <div id="message_form">
+                    <label>Message :</label>
+                    <br />
+                    <textarea name="textarea" rows="10" cols="50" minlength="10" maxlength="120" placeholder="Écrivez votre message ici...">    
+                    </textarea>
+                </div>
+                <div id="submit_form">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+
+
+    <footer class="container">
+        <div>
+            <p>&copy; 2022 Meli's Photography all rights reserved</p>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/meli_em_/?hl=fr">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="35px" height="35px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
